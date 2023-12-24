@@ -46,9 +46,7 @@ export default{
     align-items: center;
     justify-content: center;
 
-    border: 1px solid black;
-
-    
+    border: 1px solid black;   
 }
 
 .heading{
