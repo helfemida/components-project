@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <LatestTransactions></LatestTransactions>
 </template>
 <script>
@@ -10,7 +10,7 @@ import LatestTransactions from './components/LatestTransactions.vue';
     }
 </script>
   
-<style>
+<style scoped>
     *{
         box-sizing: border-box;
         padding: 0;

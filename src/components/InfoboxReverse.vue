@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <div class="reverse-box" id="reverse-box">
         <p class="header"> {{infoHeader}}</p>
         <p class="description">{{infoDescription}}</p>
@@ -16,7 +16,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .reverse-box{
         display: flex;
         flex-direction: column;

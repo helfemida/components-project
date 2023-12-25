@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <div class="menu-item" id="menu-item" :style="{ backgroundColor: background, color: textColor }"
     @mouseover="isMouseOver = true"
     @mouseleave="isMouseOver = false">

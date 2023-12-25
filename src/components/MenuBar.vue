@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <div class="menu-bar">
         <MenuItem v-for="(item, index) in elements" :key="index" :itemName="item.itemName" :imageName="item.imageName"></MenuItem>
     </div>
@@ -28,3 +28,10 @@
         }
     }
 </script>
+
+<style scoped>
+.menu-bar{
+    width: 200px;
+    margin-top: 20px;
+}
+</style>

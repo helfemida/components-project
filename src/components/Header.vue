@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <div class="container">
         <div class="left-side">
             <AppLogo></AppLogo>
@@ -14,7 +14,7 @@
     </div>
 </template>
 
-<script>
+<script scoped>
     import AppLogo from './AppLogo.vue'
     import SearchBar from './SearchBar.vue';
     import LanguageButton from './LanguageButton.vue';
@@ -31,13 +31,13 @@
     }
 </script>
 
-<style>
+<style scoped>
     .container{
         width: 100vw;
-        height: 100px;
+        height: 80px;
         display: flex;
         justify-content: space-between;
-        margin: 1% 2% 1% 2%;
+        margin: 1px 10px;
         align-items: center;
     }
     .left-side{

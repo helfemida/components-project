@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <div class="account-container">
         <div class="user">
             <p class="name">Sth Sth</p>
@@ -8,7 +8,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .account-container{
         width: 200px;
         height: 50px;

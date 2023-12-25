@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <div class="change-language">
         <img :src="require('@/assets/usa.png')" alt="">
         <p>English (US)</p>
@@ -6,7 +6,7 @@
     </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: 'ChangeLanguage'
 }

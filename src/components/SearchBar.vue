@@ -1,4 +1,4 @@
-<template>
+<template scoped>
   <div class="search-bar">
     <img :src="require('@/assets/search.png')" alt="">
     <input type="text" placeholder="Search here..." />
@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   padding: 14px;
-  background-color: rgba(45, 43, 65, 0.03);
+  background-color: #f5f5f5de;
   width: 300px;
   height: 40px;
 }

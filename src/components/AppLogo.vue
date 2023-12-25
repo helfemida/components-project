@@ -1,10 +1,10 @@
-<template>
+<template scoped>
     <div class="logo">
       <h1>Glazey<span>.</span></h1>
     </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: 'AppLogo'
 }

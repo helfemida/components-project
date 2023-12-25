@@ -1,10 +1,10 @@
-<template>
+<template scoped>
    <div class="users-container"> 
         <TransactionUser v-for="(item, index) in elements" :key="index" :imageName="item.imageName" :nameSurname="item.nameSurname" :amount="item.amount" :date="item.date"></TransactionUser>
     </div>
 </template>
 
-<script>
+<script scoped>
 import TransactionUser from './TransactionUser.vue';
 
 export default{
@@ -26,12 +26,12 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
     .users-container{
-        width: 100%;
+        width:100%;
         height: 100%;
-        
         color: #363b64;
+        
     }
     
     

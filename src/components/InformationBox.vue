@@ -1,11 +1,11 @@
-<template>
+<template scoped>
     <div class="box" id="box">
         <p class="infoHeader"> {{infoHeader}}</p>
         <p class="infoDescription">{{infoDescription}}</p>
     </div>
 </template>
 
-<script>
+<script scoped>
     export default{
         name: 'InformationBox',
         el: '#box',
@@ -16,7 +16,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .box{
         display: flex;
         flex-direction: column;

@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     <div class="graph">
         <GraphItem class="elem" v-for="(element, index) in styles" 
             :key="index" 
@@ -11,7 +11,7 @@
     </div>
 </template>
 
-<script>
+<script scoped>
     import GraphItem from './GraphItem.vue';
 
     export default {
@@ -35,15 +35,15 @@
     }
 </script>
 
-<style>
+<style scoped>
     .graph {
-        width: 500px;
-        height: 250px;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: row;
-        align-items: baseline;
-        justify-content: space-between;
+        
         margin: 2%;
+        align-items: baseline;
     }
     
 </style>

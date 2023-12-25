@@ -1,4 +1,4 @@
-<template>
+<template scoped>
     
     <div class="userinfo-container">
         <div class="user">
@@ -17,7 +17,7 @@
     </div>
 </template>
 
-<script>
+<script scoped>
     export default{
         
         props:{
@@ -29,32 +29,22 @@
     }
 </script>
 
-<style>
+<style scoped>
     .userinfo-container{
+        width: 100%;
+        height: 1/5;
+
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        color: #324160;
-        font-size: 15px;
-        padding: 20px;
-        width: 600px;
+        margin-bottom: 30px;
     }
-    .user, .amount{
+    .amount, .date, .transaction-buttons{
         display: flex;
-        width: 1/4;
-        align-items: center;
-        font-weight: 600;
-        height: 50px;
-    }
-    
-    .date{
-        color: #999aae;
-        font-size: 13px;
-        width: 1/4;
-        text-align: center;
-        height: 50px;
-        text-align: center;
+        width:1/4;
+        
+        
     }
     .userImg{
         width: 40px;
@@ -63,20 +53,17 @@
         border-radius: 13px;
         margin-right: 20px;
     }
-    
-    .transaction-buttons{
-        width: 1/4;
-        
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        height: 50px;
-        
-    }
     .transaction-buttons img{
         width: 40px;
         height: 25px;
         padding-right: 15px;
-
-    }</style>
+    }
+    .user{
+        width: 200px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-weight:bold;
+    }
+</style>

@@ -1,11 +1,11 @@
-<template>
+<template scoped>
     <div class="button-container">
         <p>{{title}}</p>
         <img class="button-img" :src="require(`@/assets/${imageName}`)" alt="">
     </div>
 </template>
 
-<script>
+<script scoped>
     export default{
         props:{
             title: {
@@ -20,7 +20,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,600&display=swap');
 
     .button-container{
