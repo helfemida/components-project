@@ -11,7 +11,7 @@
             <div class="right-part">
                 <CardItem></CardItem>
                 <QuickPayment></QuickPayment>
-                <RecentActivity></RecentActivity>
+    
             </div>
         </div>
     </section>
@@ -24,7 +24,6 @@
     import LatestTransactions from './components/LatestTransactions.vue';
     import CardItem from './components/CardItem.vue';
     import QuickPayment from './components/QuickPayment.vue';
-    import RecentActivity from './components/RecentActivity.vue';
 
     export default {
         name: 'App',
@@ -35,7 +34,6 @@
             LatestTransactions,
             CardItem,
             QuickPayment,
-            RecentActivity
         }
     }
 </script>
